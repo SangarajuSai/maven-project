@@ -136,4 +136,25 @@
 		<servlet-api-version>3.0.1</servlet-api-version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
+	
+	
+	<distributionManagement>
+	<snapshotRepository>
+  <id>localNexus</id>
+  <name>Snapshot</name>
+  <url>http://localhost:8081/repository/beedemo-mavenproject/</url>
+    </snapshotRepository>
+     </distributionManagement>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 </project>
